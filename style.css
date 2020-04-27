@@ -1,0 +1,188 @@
+.para{
+    font-family: sans-serif;
+}
+.nav{
+    display: inline;  
+}
+.navi{
+    position:fixed;
+    height: 50px;
+    
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+   
+
+}
+.navi ul{
+    position: relative;
+    top: -100px;
+}
+div img {
+    width: 200px;
+    
+   position: relative;
+   top: 65px;
+}
+#nav{
+    margin-left: 300px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 0em;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.nav a:hover{
+    background-color: royalblue;
+    color: white;
+    
+    border-radius: 50px;
+}
+.slide{
+    
+    width: 90%;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 0px;
+
+
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+    font-family:  serif;
+}
+.intro
+{
+    color: green;
+}
+.duction{
+    color: royalblue;
+    margin-left: 0px;
+}
+.para{
+    text-align: justify;
+    color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.pic{
+   margin-left: 540px;
+   width: 50px;
+
+   
+}
+.picp{
+    display: inline;
+    font-weight: bolder;
+    color: green;
+    
+}
+.dash{
+    position: relative;
+    left: 540px;
+}
+.nave{
+    background-color: royalblue;
+    height: 300px;
+    color: white;
+
+    
+}
+.nav2 img{
+    width: 40px;
+    position: relative;
+    top:0px;
+    margin-left: 20px;
+    
+}
+.nav2{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 70px;
+    width: 255PX;
+}
+.nav2 h2{
+    font-size: 3em;
+    font-family:   serif;
+}
+.nav2 p .month{
+    color:#00FF00;
+    font-size: 20px;
+}
+.nav2 p{
+    font-weight: 600;
+}
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+.dash2{
+    background-color: lightgrey;
+}
+.table{
+    background-color: white;
+    display: inline-block;
+    width: 370px;
+    margin: 20px;
+    height: 200px;
+    
+}
+.table img{
+    width: 70px;
+    position: relative;
+    top: 30px;
+    left: 150px;
+   
+}
+.table h3{
+    font-size: 22px;
+    margin-top: 40px;
+    color: royalblue;
+}
+.project img{
+    width: 32px;
+    position: relative;
+    left: 10px;
+    position: relative;
+    top: 15px;
+    
+
+}
+.pro{
+    display: inline-block;
+    width: 360px;
+    height: 73px;
+    font-size: 25px;
+    background-color: #f7f8fa;
+    border-color:lightgrey ;
+    
+}
+h4{
+    font-size: 24px;
+    color: royalblue;
+    position: relative;
+    left:50px;
+}
+.pro h5{
+    position: relative;
+left: 60px;
+top: -50px;
+}
+.imageh{
+    color: royalblue;
+}
+.galh{
+    color: green;
+}
+.foot{
+    background-color: royalblue;
+    position: relative;
+    top: 50px;
+    height: 50px;
+}
