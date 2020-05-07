@@ -1,3 +1,15 @@
+.navbar-brand{
+    position: relative;
+    top:-50px;
+    
+}
+.navbar{
+    background-color: lightgray !important;
+    position: fixed !important;
+    z-index: 1;
+    
+}
+
 .para{
     font-family: sans-serif;
 }
@@ -6,18 +18,21 @@
 }
 .navi{
     position:fixed;
-    height: 50px;
+    height: 100px;
     
-    background-color: rgb(236, 236, 236);
+    /* background-color: rgb(236, 236, 236); */
     border-radius: 10px;
-   
 
 }
+.naveBtn{
+   width: 80%;
+}
 .navi ul{
+    
     position: relative;
     top: -100px;
 }
-div img {
+.logo img {
     width: 200px;
     
    position: relative;
@@ -25,6 +40,7 @@ div img {
 }
 #nav{
     margin-left: 300px;
+    
 
 }
 .nav a{
@@ -37,21 +53,25 @@ div img {
     font-size: 15px;
    
 }
-.nav a:hover{
+ .nave1 a:hover{
     background-color: royalblue;
-    color: white;
+    color: white !important;
     
     border-radius: 50px;
+   
 }
+
 .slide{
     
-    width: 90%;
-    height: 500px;
+    max-width: 90%;
+   min-height: height 200px;
     margin-left: 50px;
     margin-top: 0px;
-
-
 }
+
+  
+  
+
 h1{
     margin-top: 200px;
     text-align: center;
@@ -68,11 +88,11 @@ h1{
 .para{
     text-align: justify;
     color: grey;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .pic{
-   margin-left: 540px;
+   margin-left: 45%;
    width: 50px;
 
    
@@ -85,9 +105,10 @@ h1{
 }
 .dash{
     position: relative;
-    left: 540px;
+    left: 45%;
 }
 .nave{
+    display: table-row-group;
     background-color: royalblue;
     height: 300px;
     color: white;
@@ -99,13 +120,16 @@ h1{
     position: relative;
     top:0px;
     margin-left: 20px;
+   
     
 }
 .nav2{
     margin-left: 50px;
     display: inline-block;
     margin-top: 70px;
-    width: 255PX;
+   min-width: width 220px;
+    background-color: royalblue;
+   
 }
 .nav2 h2{
     font-size: 3em;
@@ -124,20 +148,28 @@ h3{
 }
 .dash2{
     background-color: lightgrey;
+    display: flexbox;
 }
 .table{
-    background-color: white;
-    display: inline-block;
-    width: 370px;
-    margin: 20px;
-    height: 200px;
+    background-color: white !important;
+    display: inline-block !important;
+    width: 25% !important;
+    margin: 20px !important;
+    height: 200px !important;
+    min-width: 40%;
     
 }
+/* .table {
+    width: 33% !important;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+} */
 .table img{
     width: 70px;
     position: relative;
     top: 30px;
-    left: 150px;
+    left: 46%;
    
 }
 .table h3{
@@ -172,7 +204,7 @@ h4{
 .pro h5{
     position: relative;
 left: 60px;
-top: -50px;
+top: -12px;
 }
 .imageh{
     color: royalblue;
