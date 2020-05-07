@@ -3,7 +3,7 @@
     top:-50px;
     
 }
-.navbar{
+.navbar{   
     background-color: lightgray !important;
     position: fixed !important;
     z-index: 1;
